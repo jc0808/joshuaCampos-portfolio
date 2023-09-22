@@ -1,0 +1,53 @@
+#projects {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.projectsTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.projectsDescription {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+
+.projectsImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+}
+
+.projectsImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+
+.projectButton {
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: #fff;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: 3rem 0;
+}
+
+@media screen and (max-width: 585px) {
+    .projectsImg {
+        height: 48vw;
+    }
+}
