@@ -14,7 +14,7 @@ const Intro = () => {
                 </span>
 
                 <p className="introP">
-                    I'm a skill software engineer who likes to create valuable software.
+                    I'm a Full Stack Software Engineer who likes to create valuable software.
                 </p>
 
                 <Link><button className="button"> <img className="button-image" src={hireMe} alt="hire me" />Hire me</button></Link>

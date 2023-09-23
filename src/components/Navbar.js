@@ -1,6 +1,6 @@
 import "./Navbar.css";
 
-import logo from "../assets/logo.png";
+import logo from "../logojc.png";
 import menuLogo from "../assets/menu.png";
 import { Link } from "react-scroll";
 import contactImg from "../assets/contact.png";
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="menuList">Home</Link>
                 <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500} className="menuList">About</Link>
                 <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-100} duration={500} className="menuList">Projects</Link>
-                <Link activeClass="active" to="contactContainer" spy={true} smooth={true} offset={-100} duration={500} className="menuList">Clients</Link>
+                {/* <Link activeClass="active" to="contactContainer" spy={true} smooth={true} offset={-100} duration={500} className="menuList">Clients</Link> */}
 
             </div>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
                 <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
                 <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)}>About</Link>
                 <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Projects</Link>
-                <Link activeClass="active" to="contactContainer" spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Clients</Link>
+                {/* <Link activeClass="active" to="contactContainer" spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Clients</Link> */}
                 <Link activeClass="active" to="contactContainer" spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
 
 

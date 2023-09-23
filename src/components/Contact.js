@@ -1,14 +1,14 @@
 import "./Contact.css";
 
-import walmart from "../assets/walmart.png";
-import facebook from "../assets/facebook.png";
-import microsoft from "../assets/microsoft.png";
-import adobe from "../assets/adobe.png";
+// import walmart from "../assets/walmart.png";
+// import facebook from "../assets/facebook.png";
+// import microsoft from "../assets/microsoft.png";
+// import adobe from "../assets/adobe.png";
 
-import facebookIcon from "../assets/facebook-icon.png";
-import instagramIcon from "../assets/instagram.png";
-import twitterIcon from "../assets/twitter.png";
-import youtubeIcon from "../assets/youtube.png";
+// import facebookIcon from "../assets/facebook-icon.png";
+// import instagramIcon from "../assets/instagram.png";
+// import twitterIcon from "../assets/twitter.png";
+// import youtubeIcon from "../assets/youtube.png";
 
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
@@ -38,7 +38,7 @@ const Contact = () => {
     return (
         <section id="contactContainer">
 
-            <div className="clients">
+            {/* <div className="clients">
 
                 <h1 className="contactTitle">My Clients</h1>
 
@@ -53,13 +53,13 @@ const Contact = () => {
                     <img className="clientImg" src={microsoft} alt="client" />
                 </div>
 
-            </div>
+            </div> */}
 
             <div id="contactMe">
 
                 <h1 className="contactTitle">Contact Me</h1>
 
-                <span className="contactDescription">Please fill out the form belpow to discuss any work opportunities.</span>
+                <span className="contactDescription">Please fill out the form bellow to discuss any work opportunities.</span>
 
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
 
@@ -71,10 +71,10 @@ const Contact = () => {
                     <button className="contactButton" type="submit" value="send">Submit</button>
 
                     <div className="links">
-                        <img className="link" src={facebookIcon} alt="facebook" />
-                        <img className="link" src={youtubeIcon} alt="youtube" />
+                        {/* <img className="link" src={facebookIcon} alt="facebook" /> */}
+                        {/* <img className="link" src={youtubeIcon} alt="youtube" />
                         <img className="link" src={instagramIcon} alt="instagram" />
-                        <img className="link" src={twitterIcon} alt="twitter" />
+                        <img className="link" src={twitterIcon} alt="twitter" /> */}
                     </div>
                 </form>
             </div>

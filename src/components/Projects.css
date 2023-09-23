@@ -24,12 +24,19 @@
 
 .projectsImgs {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     width: 100vw;
-    max-width: 65rem;
-    flex-wrap: wrap;
+    max-width: 70rem;
+
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    /* margin: auto; */
+
 }
+
+
 
 .projectsImg {
     object-fit: cover;
@@ -50,4 +57,39 @@
     .projectsImg {
         height: 48vw;
     }
+}
+
+.card-buttons {
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+
+}
+
+.card-buttons>button {
+    border: none;
+    background: #fff;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    margin: 0.5rem;
+}
+
+.card {
+    margin: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.inactive {
+    opacity: 0.3;
+}
+
+.card>h4 {
+    color: yellow;
 }
