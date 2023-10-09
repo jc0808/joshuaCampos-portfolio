@@ -19,7 +19,7 @@ const Projects = () => {
 
             <div className="projectsImgs">
 
-                <div className="card inactive">
+                {/* <div className="card inactive">
                     <img src="https://cdn-icons-png.flaticon.com/256/4771/4771252.png" alt="" className="projectsImg" />
 
                     <h4>Upcoming</h4>
@@ -32,7 +32,7 @@ const Projects = () => {
                         <button disabled>View Code</button>
                         <button disabled>View Demo</button>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="card">
                     <img src={portfolio1} alt="" className="projectsImg" />
